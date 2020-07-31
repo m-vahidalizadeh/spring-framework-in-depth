@@ -10,6 +10,7 @@ import org.springframework.context.annotation.*;
 @Configuration
 @PropertySource("classpath:application.properties")
 @ComponentScan(basePackages = "com.gloriousoft")
+@EnableAspectJAutoProxy
 public class ApplicationConfig {
 
 //    @Value("${app.greeting}")
